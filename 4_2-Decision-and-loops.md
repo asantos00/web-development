@@ -73,3 +73,20 @@ while (counter > 10) {
 // 10 - counter = 10 | sum = 50
 ```
 
+### Array using a for statement
+
+```javascript
+var shopinglist = ["eggs", "bread", "water", "milk"];
+
+for (var position = 0; position < 4; position ++) {
+  console.log (shopinglist [position])
+}
+// 1 - position = 0 | shopinglist = eggs
+// 2 - position = 1 | shopinglist = bread
+// 3 - position = 2 | shopinglist = water
+// 4 - position = 3 | shopinglist = milk
+```
+
+
+
+
