@@ -71,5 +71,26 @@ while (counter > 10) {
 // 3 - counter = 2 | sum = 10
 // ...
 // 10 - counter = 10 | sum = 50
+
 ```
+
+### Loop through array
+
+Example that shows how to print array values.
+
+```javascript
+var position = 0; 
+var shoppingCart = [
+  "Ball", 
+  "Bread", 
+  "Cheese", 
+  "Milk"
+];
+
+while (position < 4) {
+  console.log(shoppingCart[position])
+  position += 1
+}
+```
+
 
