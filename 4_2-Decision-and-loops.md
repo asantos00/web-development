@@ -86,7 +86,3 @@ for (var position = 0; position < 4; position ++) {
 // 3 - position = 2 | shopinglist = water
 // 4 - position = 3 | shopinglist = milk
 ```
-
-
-
-
