@@ -73,7 +73,7 @@ On `article-1.html` page, the path to the `index.html` page is `../index.html`.
 <a href="../index.html">Home</a>
 ```
 
-### Paragraph <p>
+### Paragraph `<p>`
 
 Used as the name says, to contain a *paragraph* of text.
 
@@ -81,7 +81,7 @@ Used as the name says, to contain a *paragraph* of text.
 <p>This is a sample paragraph</p>
 ```
 
-### List <ul> <ol>
+### List `<ul> <ol>`
 
 Respectively *unordered list* and *ordered list*. This element itself doesn't do much, it's main differences are the effect they have on their child elements. The first one renders *bullets* as their children and the second one renders *numbers*.
 
@@ -100,7 +100,7 @@ Respectively *unordered list* and *ordered list*. This element itself doesn't do
 </ul>
 ```
 
-### List item <li>
+### List item `<li>`
 
 Closely related with the *list element*. The `li` elements are used as list items, it's behaviour is mostly related with their parent
 
@@ -112,7 +112,7 @@ Closely related with the *list element*. The `li` elements are used as list item
 </ul>
 ```
 
-### Image
+### Image `<img>`
 
 The `img` tag is used to render images. It must have a `src` attribute with the path to the image resource. A common attribute in images is `alt`, this attribute defines the alternative text to show when the image is not displayed.
 
@@ -120,7 +120,7 @@ The `img` tag is used to render images. It must have a `src` attribute with the 
 <img src="flag.jpeg" alt="Logo"/>
 ```
 
-### Containers
+### Containers `<div> <span>`
 
 There are two mostly used containers. `span` and `div`, their main difference is about the default styles, where `div` *occupies the whole line (display:block)* and `span` *only takes the space of it's content (display: inline-block)* by default. In *CSS* `div`s have `display: block` by default and `span`s have `display: inline-block`
 
@@ -136,7 +136,7 @@ While `span`s should only contain text, `div`s can contain anything. The usage o
 </div>
 ```
 
-### Tables
+### Tables `<table>`
 
 Tables are not the most used element nowadays. However, some sites still use it. A table can define rows and columns using the `tr` and `td` elements. Table headers can also be defined using `thead`.
 
@@ -155,7 +155,7 @@ Tables are not the most used element nowadays. However, some sites still use it.
 </table>
 ```
 
-### Button
+### Button `<button>`
 
 A button is also a common element in a lot of HTML pages. It's content is defined inside `<button>` tags.
 
@@ -163,12 +163,12 @@ A button is also a common element in a lot of HTML pages. It's content is define
 <button>Click me!</button>
 ```
 
-### Heading
+### Heading `<h1> ... <h6>`
 
 The html element `<h1> ... <h6>` is used to represent headings. Numbers are given in a hierarchic way, being 1 the most important, and 6 the less one. 
 Even though elements have default styles (as the majority of the elements), the heading usage is mainly a question of semantics, to clearly represent the importance of titles in page.
 
-### Input
+### Input `<input>`
 
 An input (`<input>`) is an element where users can insert data, can be used and integrated with the `<form>` element. Inputs normally have a `type` attribute that changes the input appearance and behaviour. Another common attributes are `placeholder` and `value`, which define, respectively, the placeholder and the default value for that input.
 
@@ -176,11 +176,11 @@ An input (`<input>`) is an element where users can insert data, can be used and 
 <input type "text" placeholder="Insert your name" value="FLAG"/>
 ```
 
-#### Labels
+#### Labels `<label>`
 
 Inputs can be together with labels. Labels, as the name says, act as input labels, describing what should be in the input. Labels reference inputs by the `for` attribute, referencing input's `id` attribute.
 
-### Forms
+### Forms `<form>`
 
 Forms are groups of input that when submitted, send data to a URL. Forms normally have two main attributes `action` and `method`. Respectively defining the URL to redirect after submission and the *HTTP verb* used to do the request.
 
