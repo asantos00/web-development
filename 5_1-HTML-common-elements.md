@@ -100,7 +100,7 @@ Respectively *unordered list* and *ordered list*. This element itself doesn't do
 </ul>
 ```
 
-### List item `<li>`
+#### List item `<li>`
 
 Closely related with the *list element*. The `li` elements are used as list items, it's behaviour is mostly related with their parent
 
