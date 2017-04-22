@@ -152,6 +152,22 @@ In forms, `input` values are stored and sent by the input `name` attribute.
 </form>
 ```
 
+### Style `<style>`
+
+Style elements are used to insert CSS code *inlined* on the page.
+
+Example
+
+```css
+h2 {
+    font-size: "14px"
+}
+```
+
+### Script `<script>`
+
+Script tags are used to include *javascript* code, either by embedding it or importing it with the `src` attribute. Another common attribute for `script` is `async`. This attribute tells the browser that the javascript file can be executed *asynchronously*, only affects external scritps.
+
 ## Common attributes
 
 ### class
