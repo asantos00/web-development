@@ -18,15 +18,18 @@ Example: "I want elements to be blue, bordered and it big font"
 
 **Selector** - *Selects* the element which the properties are gonna have effect into.
 
+*Properties* and *Selectors* are separated by a colon (:) and should have a semi-colon at the end. If the property is the last one in the declaration, it is not needed, however, it is taken as good practice.
+
 Example: "I want to apply this rule to *this* element"
 
 ```css
 .post-title {
-    font-size: "14px";
-    font-weight: "bold";
+    font-size: 14px;
+    font-weight: bold;
 }
 /* This rule makes the element with "post-title" class become bold and with 14px font. */
 ```
+
 
 ### Including CSS in the page
 
@@ -41,7 +44,7 @@ Example:
   <meta charset="UTF-8">
   <title>CSS</title>
     <style>
-        h1 { font-size: "14px" }
+        h1 { font-size: 14px }
     </style>
 </head>
 <body>
