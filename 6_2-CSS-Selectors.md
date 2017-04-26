@@ -277,4 +277,4 @@ li::after {
 }
 ```
 
-**Note:** It is normal if you find examples with double and single colon, that's a HTML5 try to standardize the usage of pseudo classes vs pseudo elements
+**Note:** It is normal if you find examples with double and single colon, that's a HTML5 attempt to standardize the usage of pseudo classes vs pseudo elements
