@@ -214,11 +214,6 @@ Substring and value attribute selectors are also known as "RegEx-like" because t
     color: green;
 }
 
-/* Targets both adapters */
-[data-product-code$="ADAPTER"] {
-    color: green;
-}
-
 /* Targets SSD */
 [data-category*="orage"] {
     background-color: red;
