@@ -12,5 +12,7 @@ A collection of documents about web development
   * [Functions](4_3-Functions.md)
 5. [XHTML](5_0-Concepts-about-XHTML.md)
   * [Common elements and attributes](5_1-HTML-common-elements.md)
-
+6. [CSS](6_0-CSS-Introduction.md)
+  * [Syntax](6_1-CSS-Syntax.md)
+  * [Selectors](6_2-CSS-Selectors.md)
 
