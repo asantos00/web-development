@@ -220,5 +220,61 @@ Substring and value attribute selectors are also known as "RegEx-like" because t
 }
 ```
 
+### Pseudo classes & elements
 
 
+#### Pseudo classes
+
+Pseudo class selectors select elements in a certain state. Example: Style a header only when user has the mover over it, select all disabled buttons, or inputs.
+
+There are a lot of pseudo classes you can find [here](https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-classes). It's not in scope to go exhaustively into each one of them, the objective here is to understand how they work.
+
+```html
+<a href="http://flag.pt" target="_blank">Flag Lisboa</a>
+```
+
+```css
+a {
+    color: green;
+    font-weight: bold;
+}
+
+/* Visited pseudo class target anchors that were already visited */
+a:visited {
+    color: red;
+}
+
+/* Add darkred color and remove underline when link is hovered, activated or focused (keyboard) */
+a:hover,
+a:active,
+a:focus {
+    color: darkred;
+    text-decoration: none;
+}
+```
+
+#### Pseudo elements
+
+Pseudo elements are elements that allow to style certain parts of an element, in contrast to pseudo classes, they don't describe a state, they describe an element that can be next to one parent element. You can find a list of every *pseudo-element* [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
+
+**Example:** The pseudo element `::first-line` only targets the first line of the element specified in the selector, allowing to give a different style to that specific element.
+
+```html
+<ul class="shopping-cart">
+  <li>Memory Card</li>
+  <li>Go Pro Black 4</li>
+  <li>MacBook Pro 2016</li>
+</ul>
+```
+
+```css
+/* 
+  Example: add a character to the end of every li. Here, we're targeting the pseudo element that is after li text.
+*/
+
+li::after {
+    content: "🔝 ";
+}
+```
+
+**Note:** It is normal if you find examples with double and single colon, that's a HTML5 try to standardize the usage of pseudo classes vs pseudo elements

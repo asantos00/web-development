@@ -12,6 +12,8 @@
 
 [Interactive Git](https://try.github.io)
 
+[CSS Dinner](https://flukeout.github.io/)
+
 ## Reference
 
 [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
