@@ -68,6 +68,7 @@ The television object is a real world representation of that TV class descriptio
 Objects can be concrete (a file on the computer, an object in real world) and can also be abstract (a database structure, a connection to a database server).
 
 ![television][televisionObject]
+
 [televisionObject]: http://www.eeng.dcu.ie/~ee553/ee402notes/html/figures/televisionObjects.gif
 
 
@@ -83,6 +84,7 @@ Encapsulation is the way of hiding implementation details, that show how things 
 Back to the TV example, the inner works of the TV are hidden from us, however, we are provided with a remote, that let us do what we want with the TV, providing a high level of abstraction. This way, we don't need to understand how the TV receives the signal and converts it in a picture to work with it.
 
 ![encapsulation][encapsulation]
+
 [encapsulation]: http://www.eeng.dcu.ie/~ee553/ee402notes/html/figures/televisionObjects.gif
 
 This approach has different advantages for different users:
