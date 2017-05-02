@@ -85,7 +85,7 @@ Back to the TV example, the inner works of the TV are hidden from us, however, w
 
 ![encapsulation][encapsulation]
 
-[encapsulation]: http://www.eeng.dcu.ie/~ee553/ee402notes/html/figures/televisionObjects.gif
+[encapsulation]: http://www.eeng.dcu.ie/~ee553/ee402notes/html/figures/televisionInterface.gif
 
 This approach has different advantages for different users:
 
@@ -129,6 +129,10 @@ If we have classes that have clear similarities between them, we can use inherit
 
 This approach allows the developer to inherit the common parts and customize the parts that are different.
 
+![inheritance][inheritance]
+
+[inheritance]: http://www.eeng.dcu.ie/~ee553/ee402notes/html/figures/baseClass.gif
+
 Question: What is a dog?
 
 You may answer "a mammal that has 4 legs, barks, and has a shorter lifespan".
@@ -166,6 +170,10 @@ Polymorphism means "multiple forms", in OOP those forms refer to different forms
 
 When a child class redefines a base method, changing it's implementation, it is called **overriding**. So two classes with child/parent relationship can have different behaviours when the same method is called.
 
+![overriding][overriding]
+
+[overriding]: http://www.eeng.dcu.ie/~ee553/ee402notes/html/figures/overRidingCar.gif
+
 ```
 class Mammal {
     // state
@@ -201,6 +209,10 @@ In the given example, you can call the method `channel` on the TV class with dif
 ### Abstract Class
 
 An abstract class is a class that is meant to be inherited. It is something like an *incomplete class*. This class defines generic methods that **have to be** overridden by the child class. 
+
+![abstract][abstract]
+
+[abstract]: http://www.eeng.dcu.ie/~ee553/ee402notes/html/figures/abstractDraw.gif
 
 So, as the name says, an *abstract class* is a class that says that the child class **must have** some methods, but doesn't know how to implement them. Now we can see that our `Mammal` class should be an `abstract class`, as there is no "generic way" for a `Mammal` to breath or walk, every Mammal species has their own way.
 
